@@ -2,44 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            rel="stylesheet"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Mulish:wght@400;600;700;800&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <p>
+    <header class="header">
+      <div class="header__container container">
+      <a class="header__logo" href="./index.html">
+        <p class="header__logo-m">
           M
-          <span>box</span>
+          <span class="header__logo-box">box</span>
         </p>
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#"> Home</a>
+      <nav class="header__nav">
+        <ul class="header__navlist">
+          <li class="header__navlist-item">
+            <a class="header__navlink" href="#"> Home</a>
           </li>
-          <li>
-            <a href="#"> TV Shows</a>
+          <li class="header__navlist-item">
+            <a class="header__navlink" href="#"> TV Shows</a>
           </li>
+          <li class="header__navlist-item">
+            <a class="header__navlink" href="#"> Movies</a>
+          </li class="header__navlist-item">
           <li>
-            <a href="#"> Movies</a>
-          </li>
-          <li>
-            <a href="#"> Series</a>
-          </li>
+            <a class="header__navlink" href="#"> Series</a>
+          </li class="header__navlist-item">
         </ul>
       </nav>
-      <ul>
-        <li>
-          <p>icon</p>
+      <ul class="header__sociallist">
+        <li class="header__social-litem">
+          <p class="header__social-icon">icon</p>
         </li>
-        <li>
-          <p>icon</p>
+        <li class="header__social-litem">
+          <p class="header__social-icon">icon</p>
         </li>
-        <li>
-          <p>icon</p>
+        <li class="header__social-litem">
+          <p class="header__social-icon">icon</p>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section>
