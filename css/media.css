@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    .container {
+     max-width: 768px;
+    }
+
+    .header__nav {
+        display: flex;
+    }
+
+    .buttom_header {
+        display: none;
+    }
+
+    .header__navlist {
+        gap: 80px;
+    }
+   }
+   
+   @media screen and (min-width: 1158px) {
+    .container {
+     max-width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+
+    .header__sociallist {
+        display: flex;
+    }
+   }

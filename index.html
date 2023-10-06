@@ -18,6 +18,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Mulish:wght@400;600;700;800&family=Poppins:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
@@ -63,8 +64,15 @@
           </svg>
         </li>
       </ul>
+      <buttom class="buttom_header" type="buttom">
+        <svg class="header-icon" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-hero-solid_menu">
+        </use>
+      </svg>
+    </buttom>
       </div>
     </header>
+    <!-- END Header -->
     <main>
       <section>
       <div>
@@ -107,5 +115,49 @@
       </ul>
     </section>
   </main>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu is-open">
+    <buttom class="buttom_mobile" type="buttom">
+      <svg class="mobile-icon" width="16" height="16">
+      <use href="./img/symbol-defs.svg#icon-close-black">
+      </use>
+    </svg>
+  </buttom>
+    <nav class="header__nav">
+      <ul class="header__navlist">
+        <li class="header__navlist-item">
+          <a class="header__navlink active" href="#"> Home</a>
+        </li>
+        <li class="header__navlist-item">
+          <a class="header__navlink" href="#"> TV Shows</a>
+        </li>
+        <li class="header__navlist-item">
+          <a class="header__navlink" href="#"> Movies</a>
+        </li class="header__navlist-item">
+        <li>
+          <a class="header__navlink" href="#"> Series</a>
+        </li class="header__navlist-item">
+      </ul>
+    </nav>
+    <ul class="header__sociallist">
+      <li class="header__social-litem">
+        <svg class="header__social-icon" width="20" height="20">
+          <use href="./img/symbol-defs.svg#icon-Group-18"></use>
+        </svg>
+      </li>
+      <li class="header__social-litem">
+        <svg class="header__social-icon" width="20" height="20">
+          <use href="./img/symbol-defs.svg#icon-Group-19"></use>
+        </svg>
+      </li>
+      <li class="header__social-litem">
+        <svg class="header__social-icon" width="20" height="20">
+          <use href="./img/symbol-defs.svg#icon-Group"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
+  <!-- END Mobile Menu -->
   </body>
 </html>
